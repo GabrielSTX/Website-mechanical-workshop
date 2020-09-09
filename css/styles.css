@@ -1,0 +1,398 @@
+/*global*/
+body{
+    font-family:'Roboto', sans-serif;
+}
+.row{
+    margin: 0;
+}
+.container{
+    padding: 70px 0;
+}
+p, li{
+    color:#444;
+    font-size: 14px;
+}
+/*Nav*/
+.nav-img{
+    height: 50px;
+}
+#nav-container{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+header, .navbar{
+    background-color:#262626;
+}
+.contact
+{
+    font-size: 1.1rem;
+}
+.active
+{
+    color: #ce0000!important;
+    font-weight: bold;
+}
+#navbar-links a:hover
+{
+    color: #ce0000!important;
+    border-bottom: 2px solid #ce0000!important;
+    margin-bottom: -13px;
+}
+
+.navbar-brand{
+    padding: 0;
+    color: #FFF;
+
+}
+.navbar-brand:hover{
+    color: #ce0000!important;
+}
+#navbar-links a {
+    color: #FFF;
+}
+.navbar-expand-lg .navbar-nav .navbar-link{
+    padding: 1rem .8rem;
+}
+
+/* Slider */
+.container-fluid
+{
+    padding: 0;
+}
+
+#mainSlider .carousel-inner, #mainSlider .carousel-item
+{
+    height: 90vh;
+}
+
+#mainSlider .carousel-caption
+{
+    top: 30%;   
+}
+
+#mainSlider .carousel-caption h2{
+    font-size: 50px;
+    margin-bottom: 30px;
+    text-shadow: 0 0 10px black, 0 0 20px black;
+}
+
+#mainSlider .carousel-caption p{
+    font-size: 22px;
+    font-weight: 300;
+    margin-bottom: 100px;
+    color: #ffffff;
+    text-shadow: 0px 0px 5px black, 0px 0px 5px black, 0px 0px 5px black;
+}
+
+.main-btn
+{
+    background-color: #ce0000;
+    color:#ffffff;
+    width: 200px;
+    height: 60px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: 3px solid transparent;
+    transition: .5s;
+    outline: none;
+}
+.main-btn:hover
+{
+    text-decoration: none;
+    color: #ffffff;
+    background-color: transparent;
+    border-color: #ce0000;
+}
+
+.carousel-indicators .active
+{
+    background-color: #ce0000;
+}
+
+/* Specialties */
+#specialties-area
+{
+    background-color: #fff;
+}
+.main-title
+{
+    text-align: center;
+    margin: 0 0 65px 0;
+    font-size: 40px;
+}
+
+.main-title::after
+{
+    content: "";
+    border-top: 2px solid #333;
+    width: 15%;
+    position: absolute;
+    top: 60px;
+    left: 42.5%;
+}
+
+.specialty-box
+{
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+.specialty-box i, .specialty-box h4 {
+    transition: .5s;
+}
+.specialty-box i 
+{
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.specialty-box h4 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.specialty-box:hover> i, .specialty-box:hover> h4{
+    color: #ce0000;
+}
+
+/* Footer */
+.alert
+{
+    text-align: center;
+    margin-bottom: 0;
+    background-color: #a5a5a5;
+    color: #ce0000;
+    border-color: #a5a5a5;
+}
+footer nav
+{
+    height: 50px;
+
+}
+.footer-p
+{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.footer-p p
+{
+    color: #ffffff;
+}
+
+/* About */
+#about-area
+{
+    margin-top: 25px;
+}
+.spacing
+{
+    margin-top: 35px;
+}
+.secondary-title
+{
+    font-size: 22px;
+    font-weight: bold;
+}
+.secondary-title i
+{
+    color: #087b9b;
+}
+#about-area div p
+{
+    font-size: 20px;
+}
+
+
+/* Portfolio */
+.project-box
+{
+    margin-bottom: 30px;
+
+}
+#filter-btn-box
+{
+    margin-bottom: 50px;
+    text-align: center;
+}
+#portfolio-area .filter-btn{
+    color: #444;
+    border: 1px solid #444;
+    background-color: transparent;
+    text-transform: none;
+    margin: 0 15px;
+    min-width: 100px;
+    width: auto;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 20px;
+    outline: none;
+}
+#portfolio-area .filter-btn.active,   #portfolio-area .filter-btn:hover{
+    color: #FFF !important;
+    background-color: #ce0000;
+    border-color: #ce0000;
+}
+.project-box img
+{
+    width: 350px;
+    height: 250px;
+}
+
+/*Local*/
+.ico 
+{
+    text-align: center;
+    margin-top: 25px;
+    color: #262626;
+}
+.ico p
+{
+    font-size: 17px;
+}
+.ico  i
+{
+    border-radius: 50%;
+    border: 1px solid #262626;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.ico:hover i, .ico:hover p
+{
+    color: #ce0000;
+    border-color: #ce0000;
+    cursor: pointer;
+}
+
+
+/*Form area */
+#form-area
+{ 
+    border-radius: 20px;
+    text-align: center;
+    background-color:#fff;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, .3), 
+                -5px 5px 15px rgba(0, 0, 0, .3),
+                5px -5px 15px rgba(0, 0, 0, .3),
+                -5px -5px 15px rgba(0, 0, 0, .3);
+}
+#form-box
+{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+#form-box p
+{
+    color: #000;
+    font-size: 24px;
+    margin-top: 40px;
+    text-align: justify;
+}
+#form-box p input
+{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #ce0000;
+    color:#000;
+}
+#form-box p select
+{
+    -webkit-appearance: none;  /* Remove estilo padrão do Chrome */
+   -moz-appearance: none; /* Remove estilo padrão do FireFox */
+   appearance: none; /* Remove estilo padrão do FireFox*/
+   background: url(http://www.webcis.com.br/images/imagens-noticias/select/ico-seta-appearance.gif) no-repeat #eeeeee;
+   background-position: 218px center; 
+   width: 250px; 
+   height:40px; 
+   border:1px solid #ddd;
+}
+#form-box button
+{
+    margin-top: 30px;
+    outline: none;
+}
+#form-box button:hover
+{
+    color: #ce0000;
+}
+.error-msg
+{
+    position: absolute;
+    visibility: hidden;
+    font-size: 14px!important;
+    color: #ce0000!important;
+}
+#name-error
+{
+    top: 40px;
+    left: 145px;
+}
+#date-error
+{
+    top: 125px;
+    left: 130px;
+}
+
+/*Responsive*/
+@media(max-width: 768px)
+{
+    /*Global*/
+    .container
+    {
+        padding: 50px 0;
+    }
+
+    /*Slider*/
+    #mainSlider .carousel-inner, #mainSlider .carousel-item
+    {
+        height: auto;
+    }
+    #mainSlider .carousel-caption h2
+    {
+        font-size: 28px;
+    }
+    #mainSlider .carousel-caption p 
+    {
+        font-size: 18px;
+        margin-bottom: 40px;
+    }
+    .carousel-caption
+    {
+        left: 10%;
+        right: 10%;
+    }
+}
+@media(max-width: 425px) 
+{
+    /* slider */
+    #mainSlider {
+      margin-top: 60px;
+    }
+  
+    #mainSlider .carousel-caption {
+      top: 28%;
+    }
+  
+    #mainSlider .carousel-caption h2 {
+      font-size: 18px;
+      margin-bottom: 38px;
+    }
+  
+    #mainSlider .carousel-caption p {
+      display: none;
+    }
+    .carousel-caption .main-btn{
+        font-size: 12px;
+    } 
+    /*Portfolio*/
+    #portfolio-area .filter-btn{
+        margin-bottom:20px;
+    }
+    .project-box{
+        text-align: center;
+    }
+}
